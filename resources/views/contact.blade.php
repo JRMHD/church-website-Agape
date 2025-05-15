@@ -32,35 +32,29 @@
 
 <body>
     <!-- preloader area start -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="loader">
-                <svg id="eJPpT6qIRLO1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 0 41 52" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-                    <g id="eJPpT6qIRLO2" transform="matrix(1 0 0 1 -219 -96.817001)">
-                        <g id="eJPpT6qIRLO3" transform="matrix(1 0 0 1 219.111 139.233001)">
-                            <path id="eJPpT6qIRLO4"
-                                d="M117.617,183.55L118.923,187.05L122.66,187.209L119.73,189.534L120.73,193.134L117.613,191.067L114.496,193.134L115.496,189.534L112.567,187.209L116.304,187.05Z"
-                                transform="matrix(1 0 0 1 -112.573997 -183.550003)" opacity="0" fill="rgb(221,19,26)"
-                                stroke="none" stroke-width="1" />
-                            <path id="eJPpT6qIRLO5"
-                                d="M117.617,183.55L118.923,187.05L122.66,187.209L119.73,189.534L120.73,193.134L117.613,191.067L114.496,193.134L115.496,189.534L112.567,187.209L116.304,187.05Z"
-                                transform="matrix(1 0 0 1 -97.171997 -183.550003)" opacity="0" fill="rgb(221,19,26)"
-                                stroke="none" stroke-width="1" />
-                            <path id="eJPpT6qIRLO6"
-                                d="M117.617,183.55L118.923,187.05L122.66,187.209L119.73,189.534L120.73,193.134L117.613,191.067L114.496,193.134L115.496,189.534L112.567,187.209L116.304,187.05Z"
-                                transform="matrix(1 0 0 1 -81.771004 -183.550003)" opacity="0" fill="rgb(221,19,26)"
-                                stroke="none" stroke-width="1" />
-                        </g>
-                        <path id="eJPpT6qIRLO7"
-                            d="M6238.076,2712.141L6238.076,2692.616L6201.827,2692.616L6201.827,2715.847L6208.336,2715.847L6208.336,2699.125L6231.567,2699.125L6231.567,2705.633L6214.843,2705.633L6214.843,2722.356L6201.826,2722.356L6201.826,2728.865L6221.351,2728.865L6221.351,2716.743L6233.472,2728.865L6238.072,2728.865L6238.072,2724.265L6227.532,2713.725L6225.949,2712.144Z"
-                            transform="matrix(1 0 0 1 -5980.451 -2595.798999)" fill="rgb(221,19,26)" fill-rule="evenodd"
-                            stroke="none" stroke-width="1" />
-                    </g>
-                </svg>
-            </div>
+    <div id="preloader"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: white; display: flex; align-items: center; justify-content: center; z-index: 9999;">
+        <div style="width: 100px; height: 100px;">
+            <img src="\assets\img\preloader.png" alt="Loading..."
+                style="width: 100%; height: 100%; animation: zoom 1s ease-in-out infinite;">
         </div>
     </div>
+
+    <style>
+        @keyframes zoom {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
     <!-- preloader area end -->
     @include('header')
     <!-- contact section start here -->
@@ -91,31 +85,32 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title">
-                        <h4 class="title wow animate__animated animate__fadeInUp">Have to join with us? </h4>
+                        <h4 class="title wow animate__animated animate__fadeInUp">Want to Join Us in Faith?</h4>
                         <p class="description wow animate__animated animate__fadeInUp">
-                            Every pleasures is to welcomed pain avoided owing to the duty the obligations of business it
-                            will
-                            frequently.
+                            We welcome you with open hearts to worship, grow, and serve together. At Agape Temple Global
+                            Ministry, there's a place for you in God's purpose.
                         </p>
                     </div>
+
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <!-- Capelle aan den IJssel, Netherlands -->
+                <div class="col-lg-6 col-md-6">
                     <div class="single-testimonial-item-02 wow animate__animated animate__fadeInUp">
                         <img src="assets/img/flag-shape.png" class="shape-01 style-01" alt="" />
                         <div class="icon style-01">
                             <i class="icon-bridge"></i>
                         </div>
                         <div class="content">
-                            <h4 class="title">California</h4>
+                            <h4 class="title">Capelle aan den IJssel, Netherlands</h4>
                             <ul class="contact-info-list-02">
                                 <li class="single-info-item">
                                     <div class="icon">
                                         <i class="icon-location"></i>
                                     </div>
                                     <div class="details">
-                                        Woods Avenue (East LA), 380/6, San Morni CA
+                                        Agape Temple Global Ministry
                                     </div>
                                 </li>
                                 <li class="single-info-item">
@@ -123,7 +118,7 @@
                                         <i class="icon-phone"></i>
                                     </div>
                                     <div class="details">
-                                        009-215-5599
+                                        +31 6 36108563
                                     </div>
                                 </li>
                                 <li class="single-info-item">
@@ -131,28 +126,30 @@
                                         <i class="icon-envelope"></i>
                                     </div>
                                     <div class="details">
-                                        info@yourmail.com
+                                        agapetempleglobalministryafric@gmail.com
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+
+                <!-- Nairobi, Kenya -->
+                <div class="col-lg-6 col-md-6">
                     <div class="single-testimonial-item-02 wow animate__animated animate__fadeInUp animate__delay-1s">
                         <img src="assets/img/flag-shape.png" class="shape-01 style-01" alt="" />
                         <div class="icon style-01">
                             <i class="icon-building"></i>
                         </div>
                         <div class="content">
-                            <h4 class="title">New York</h4>
+                            <h4 class="title">Nairobi, Kenya</h4>
                             <ul class="contact-info-list-02">
                                 <li class="single-info-item">
                                     <div class="icon">
                                         <i class="icon-location"></i>
                                     </div>
                                     <div class="details">
-                                        Woods Avenue (East LA), 380/6, San Morni CA
+                                        Agape Temple Global Ministry - Africa
                                     </div>
                                 </li>
                                 <li class="single-info-item">
@@ -160,7 +157,7 @@
                                         <i class="icon-phone"></i>
                                     </div>
                                     <div class="details">
-                                        009-215-5599
+                                        +2547 014 64313
                                     </div>
                                 </li>
                                 <li class="single-info-item">
@@ -168,44 +165,7 @@
                                         <i class="icon-envelope"></i>
                                     </div>
                                     <div class="details">
-                                        info@yourmail.com
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-testimonial-item-02 wow animate__animated animate__fadeInUp animate__delay-2s">
-                        <img src="assets/img/flag-shape.png" class="shape-01 style-01" alt="" />
-                        <div class="icon style-01">
-                            <i class="icon-avenue"></i>
-                        </div>
-                        <div class="content">
-                            <h4 class="title">Florida</h4>
-                            <ul class="contact-info-list-02">
-                                <li class="single-info-item">
-                                    <div class="icon">
-                                        <i class="icon-location"></i>
-                                    </div>
-                                    <div class="details">
-                                        Woods Avenue (East LA), 380/6, San Morni CA
-                                    </div>
-                                </li>
-                                <li class="single-info-item">
-                                    <div class="icon">
-                                        <i class="icon-phone"></i>
-                                    </div>
-                                    <div class="details">
-                                        009-215-5599
-                                    </div>
-                                </li>
-                                <li class="single-info-item">
-                                    <div class="icon">
-                                        <i class="icon-envelope"></i>
-                                    </div>
-                                    <div class="details">
-                                        info@yourmail.com
+                                        agapetempleglobalministryafric@gmail.com
                                     </div>
                                 </li>
                             </ul>
@@ -213,6 +173,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- Office Address Section Start here -->
@@ -232,16 +193,19 @@
                             <div class="col-lg-5">
                                 <div class="contact-single-item">
                                     <div class="content">
-                                        <h4 class="title wow animate__animated animate__fadeInUp">Thanks for your
-                                            interest in Senatory</h4>
-                                        <p class="wow animate__animated animate__fadeInUp">The circumstances get
-                                            murkier with both sides trying every trick to ensure their victory in
-                                            upcoming.</p>
+                                        <h4 class="title wow animate__animated animate__fadeInUp">
+                                            Thank you for connecting with Agape Temple Global Ministry
+                                        </h4>
+                                        <p class="wow animate__animated animate__fadeInUp">
+                                            We are honored to walk with you in faith, prayer, and purpose. May your
+                                            journey with us be filled with grace, growth, and spiritual upliftment.
+                                        </p>
                                     </div>
                                     <div class="thumb">
-                                        <img src="assets/img/contact-01.png" alt="">
+                                        <img src="assets/img/contact-01.png" alt="Agape Temple Global Ministry">
                                     </div>
                                 </div>
+
                             </div>
                             <div class="col-lg-7">
                                 <div class="contact-page-wrapper style-03">
@@ -318,22 +282,22 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title">
-                        <h4 class="title wow animate__animated animate__fadeInUp">Find Us on Goggle Maps</h4>
+                        <h4 class="title wow animate__animated animate__fadeInUp">Find Us on Google Maps</h4>
                         <p class="description wow animate__animated animate__fadeInUp">
-                            Every pleasures is to welcomed pain avoided owing to the duty the obligations of business it
-                            will
-                            frequently.
+                            Locate Agape Temple Global Ministry with ease and join us in worship. We're just a click
+                            away from where your faith leads you.
                         </p>
                     </div>
                 </div>
+
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact_map">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d233667.8223908687!2d90.27923710646989!3d23.780887457084543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1588510922243!5m2!1sen!2sbd"
-                            style="border:0; width: 100%; height: 100%;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78717.30239375167!2d4.495791947828513!3d51.93549118788602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd539cf503cd%3A0x242a8637186b5149!2sCapelle%20aan%20den%20IJssel%2C%20Netherlands!5e0!3m2!1sen!2ske!4v1747348260598!5m2!1sen!2ske"
+                            width="1900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

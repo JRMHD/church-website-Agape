@@ -1,6 +1,6 @@
 <div class="body-overlay" id="body-overlay"></div>
 <div class="search-popup" id="search-popup">
-    <form action="https://themeim.com/demo/senatory//" class="search-form">
+    <form action="" class="search-form">
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Search.....">
         </div>
@@ -15,17 +15,14 @@
                 <div class="top-social">
                     <ul class="top-social-share">
                         <li>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://web.facebook.com/profile.php?id=61576136251542"><i
+                                    class="fab fa-facebook-f"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/@agapetempleglobalministryafric"><i
+                                    class="fab fa-youtube"></i></a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-dribbble"></i></a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -36,15 +33,18 @@
                             <i class="icon-phone"></i>
                         </div>
                         <div class="content">
-                            <h5 class="title">009-215-5599</h5>
+                            <h5 class="title">+31636108563</h5>
                         </div>
+                        {{-- <div class="content">
+                            <h5 class="title">  +254701464313</h5>
+                        </div> --}}
                     </div>
                     <div class="top-single-item">
                         <div class="icon">
                             <i class="icon-envelope"></i>
                         </div>
                         <div class="content">
-                            <h5 class="title">info@gmail.com</h5>
+                            <h5 class="title">agapetempleglobalministryafric@gmail.com</h5>
                         </div>
                     </div>
                     <div class="top-single-item">
@@ -66,7 +66,7 @@
             <div class="responsive-mobile-menu">
                 <div class="logo-wrapper">
                     <a href="/" class="logo">
-                        <img src="/assets/img/logo.png" alt="" />
+                        <img src="/assets/img/logo.png" alt="" style="width: 100px; height: auto;" />
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu"
@@ -78,13 +78,12 @@
                 <ul class="navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ url('/about') }}">About</a></li>
-                    <li><a href="{{ url('/contact') }}">Contact</a></li>
                     <li><a href="{{ url('/donation') }}">Donation</a></li>
                     <li><a href="{{ url('/event') }}">Events</a></li>
-                    <li><a href="{{ url('/faq') }}">FAQ</a></li>
                     <li><a href="{{ url('/services') }}">Services</a></li>
                     <li><a href="{{ url('/team') }}">Team</a></li>
                     <li><a href="{{ url('/volunteer') }}">Volunteer</a></li>
+                    <li><a href="{{ url('/contact') }}">Contact</a></li>
 
                 </ul>
 
