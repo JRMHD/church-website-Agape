@@ -57,10 +57,8 @@
                         <div class="footer-widget widget wow animate__animated animate__fadeInUp">
                             <h4 class="widget-title">Quick Links</h4>
                             <ul>
-                                <li><a href="{{ url('/faq') }}">FAQ</a></li>
                                 <li><a href="{{ url('/event') }}">Events</a></li>
                                 <li><a href="#">Support</a></li>
-                                <li><a href="{{ url('/team') }}">Team</a></li>
                                 <li><a href="{{ url('/about') }}">Our Story</a></li>
                             </ul>
                         </div>

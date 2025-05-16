@@ -80,9 +80,6 @@
                     <li><a href="{{ url('/about') }}">About</a></li>
                     <li><a href="{{ url('/donation') }}">Donation</a></li>
                     <li><a href="{{ url('/event') }}">Events</a></li>
-                    <li><a href="{{ url('/services') }}">Services</a></li>
-                    <li><a href="{{ url('/team') }}">Team</a></li>
-                    <li><a href="{{ url('/volunteer') }}">Volunteer</a></li>
                     <li><a href="{{ url('/contact') }}">Contact</a></li>
 
                 </ul>

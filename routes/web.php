@@ -11,10 +11,6 @@ Route::view('/about', 'about');
 Route::view('/contact', 'contact');
 Route::view('/donation', 'donation');
 Route::view('/event', 'event');
-Route::view('/faq', 'faq');
-Route::view('/services', 'services');
-Route::view('/team', 'team');
-Route::view('/volunteer', 'volunteer');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -27,3 +23,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+Route::fallback(function () {
+    return response()->view('error', [], 404);
+});

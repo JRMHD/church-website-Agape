@@ -6,29 +6,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Senatory Political HTML-5 Template</title>
-    <!-- favicon -->
+
+    <!-- Page Title -->
+    <title>Contact Us | Agape Temple Global Ministry</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Contact Us | Agape Temple Global Ministry" />
+    <meta name="description"
+        content="Get in touch with Agape Temple Global Ministry. We’re here to pray with you, support your faith, and answer your questions. Connect with our offices in Kenya or the Netherlands." />
+    <meta name="keywords"
+        content="Agape Temple contact, church in Kenya, church in Netherlands, prayer support, ministry communication, Christian church contacts, Apostle Geoffrey Mboga, Rev. Helene Oord" />
+    <meta name="author" content="Agape Temple Global Ministry" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.agapetempleglobalministryafrica.com/contact.html" />
+    <meta property="og:title" content="Contact Us | Agape Temple Global Ministry" />
+    <meta property="og:description"
+        content="Reach out to Agape Temple Global Ministry. We'd love to connect, pray with you, and serve you wherever you are." />
+    <meta property="og:image"
+        content="http://www.agapetempleglobalministryafrica.com/assets/img/agape-contact-banner.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://www.agapetempleglobalministryafrica.com/contact.html" />
+    <meta property="twitter:title" content="Contact Us | Agape Temple Global Ministry" />
+    <meta property="twitter:description"
+        content="Send us a message or call our ministry team in Kenya or the Netherlands. We are here to serve." />
+    <meta property="twitter:image"
+        content="http://www.agapetempleglobalministryafrica.com/assets/img/agape-contact-banner.jpg" />
+
+    <!-- Favicon -->
     <link rel="icon" href="assets/img/favicon.png" sizes="20x20" type="image/png" />
-    <!-- animate -->
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/animate.css" />
-    <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- magnific popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!-- owl carousel -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <!-- fontawesome -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <!-- iconmoon css -->
-    <link rel="stylesheet" href="assets/css/iconmoon.css">
-    <!-- Hover CSS -->
+    <link rel="stylesheet" href="assets/css/iconmoon.css" />
     <link rel="stylesheet" href="assets/css/hover-min.css" />
-    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
+
 
 <body>
     <!-- preloader area start -->
@@ -67,8 +89,8 @@
                     </div>
                     <div class="breadcrumbs">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

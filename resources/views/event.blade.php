@@ -6,29 +6,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Senatory Political HTML-5 Template</title>
-    <!-- favicon -->
+
+    <!-- Page Title -->
+    <title>Events | Agape Temple Global Ministry</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Events | Agape Temple Global Ministry" />
+    <meta name="description"
+        content="Stay updated on upcoming crusades, youth conferences, healing services, and worship gatherings at Agape Temple Global Ministry in Kenya and the Netherlands." />
+    <meta name="keywords"
+        content="church events, worship service, prophetic conference, crusade, Agape Temple, Christian events Kenya, healing meetings, Apostle Geoffrey Mboga, Rev. Helene Oord" />
+    <meta name="author" content="Agape Temple Global Ministry" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.agapetempleglobalministryafrica.com/events.html" />
+    <meta property="og:title" content="Events | Agape Temple Global Ministry" />
+    <meta property="og:description"
+        content="Join us for powerful, Spirit-filled events that transform lives through the Gospel. Check out our upcoming services and gatherings." />
+    <meta property="og:image"
+        content="http://www.agapetempleglobalministryafrica.com/assets/img/agape-events-banner.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://www.agapetempleglobalministryafrica.com/events.html" />
+    <meta property="twitter:title" content="Events | Agape Temple Global Ministry" />
+    <meta property="twitter:description"
+        content="From Nairobi to the Netherlands — experience impactful church events at Agape Temple Global Ministry." />
+    <meta property="twitter:image"
+        content="http://www.agapetempleglobalministryafrica.com/assets/img/agape-events-banner.jpg" />
+
+    <!-- Favicon -->
     <link rel="icon" href="assets/img/favicon.png" sizes="20x20" type="image/png" />
-    <!-- animate -->
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/animate.css" />
-    <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- magnific popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!-- owl carousel -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <!-- fontawesome -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <!-- iconmoon css -->
-    <link rel="stylesheet" href="assets/css/iconmoon.css">
-    <!-- Hover CSS -->
+    <link rel="stylesheet" href="assets/css/iconmoon.css" />
     <link rel="stylesheet" href="assets/css/hover-min.css" />
-    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
+
 
 <body>
     <!-- preloader area start -->
@@ -68,8 +90,8 @@
                     </div>
                     <div class="breadcrumbs">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="event.html">Event</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/event">Event</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,161 +104,133 @@
     <div class="issues-around-us-section">
         <div class="container">
             <div class="row">
+                <!-- Event 1 -->
                 <div class="col-lg-6">
                     <div class="event-single-items">
-                        <div class="event-img" style="background-image: url(assets/img/event-01.png);">
-                        </div>
+                        <div class="event-img" style="background-image: url(/assets/img/poster.jpg);"></div>
                         <div class="content">
                             <div class="post-mate">
                                 <h2 class="post-date">21</h2>
-                                <div class="post-month">jan</div>
+                                <div class="post-month">Jan</div>
                             </div>
                             <div class="subtitle">
                                 <div class="location">
-                                    <div class="icon">
-                                        <i class="icon-location"></i>
-                                    </div>
-                                    <p>684 Ann St. FL 34608</p>
+                                    <div class="icon"><i class="icon-location"></i></div>
+                                    <p>Agape Church, Nairobi</p>
                                 </div>
                                 <div class="time">
-                                    <div class="icon">
-                                        <i class="icon-clock"></i>
-                                    </div>
-                                    <p>12:00 am</p>
+                                    <div class="icon"><i class="icon-clock"></i></div>
+                                    <p>6:00 PM</p>
                                 </div>
                             </div>
-                            <h4 class="title"><a href="event-single.html">The Economy of the US: What are the Weakest
-                                    Spots?</a></h4>
-                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <h4 class="title"><a href="/contact">New Year Prophetic Crossover Service</a></h4>
+                            <p class="description">Join us as we usher in the new year in God’s presence with prayer,
+                                worship, and prophetic declarations from our leaders.</p>
                             <div class="btn-wrapper">
-                                <a href="event-single.html" class="boxed-btn event-btn"><i
-                                        class="fas fa-arrow-right"></i>Read More</a>
+                                <a href="/contact" class="boxed-btn event-btn"><i class="fas fa-arrow-right"></i>Learn
+                                    more</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Event 2 -->
                 <div class="col-lg-6">
                     <div class="event-single-items">
-                        <div class="event-img" style="background-image: url(assets/img/event-02.png);">
-                        </div>
+                        <div class="event-img" style="background-image: url(/assets/img/PSTHELLEN.jpg);"></div>
                         <div class="content">
                             <div class="post-mate">
                                 <h2 class="post-date">04</h2>
-                                <div class="post-month">feb</div>
+                                <div class="post-month">Feb</div>
                             </div>
                             <div class="subtitle">
                                 <div class="location">
-                                    <div class="icon">
-                                        <i class="icon-location"></i>
-                                    </div>
-                                    <p>684 Ann St. FL 34608</p>
+                                    <div class="icon"><i class="icon-location"></i></div>
+                                    <p>Agape Temple, Netherlands</p>
                                 </div>
                                 <div class="time">
-                                    <div class="icon">
-                                        <i class="icon-clock"></i>
-                                    </div>
-                                    <p>12:00 am</p>
+                                    <div class="icon"><i class="icon-clock"></i></div>
+                                    <p>10:00 AM</p>
                                 </div>
                             </div>
-                            <h4 class="title"><a href="event-single.html">The Economy of the US: What are the Weakest
-                                    Spots?</a></h4>
-                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <h4 class="title"><a href="/contact">Youth Revival Conference 2025</a></h4>
+                            <p class="description">A weekend of empowerment, fire-filled worship, and relevant
+                                teachings
+                                for young people to rise as kingdom influencers.</p>
                             <div class="btn-wrapper">
-                                <a href="event-single.html" class="boxed-btn event-btn"><i
-                                        class="fas fa-arrow-right"></i>Read More</a>
+                                <a href="/contact" class="boxed-btn event-btn"><i
+                                        class="fas fa-arrow-right"></i>Learn
+                                    more</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Event 3 -->
                 <div class="col-lg-6">
                     <div class="event-single-items">
-                        <div class="event-img" style="background-image: url(assets/img/event-03.png);">
-                        </div>
+                        <div class="event-img" style="background-image: url(assets/img/eventgallery.jpg);"></div>
                         <div class="content">
                             <div class="post-mate">
                                 <h2 class="post-date">17</h2>
-                                <div class="post-month">feb</div>
+                                <div class="post-month">Feb</div>
                             </div>
                             <div class="subtitle">
                                 <div class="location">
-                                    <div class="icon">
-                                        <i class="icon-location"></i>
-                                    </div>
-                                    <p>684 Ann St. FL 34608</p>
+                                    <div class="icon"><i class="icon-location"></i></div>
+                                    <p>Online (Zoom & YouTube)</p>
                                 </div>
                                 <div class="time">
-                                    <div class="icon">
-                                        <i class="icon-clock"></i>
-                                    </div>
-                                    <p>12:00 am</p>
+                                    <div class="icon"><i class="icon-clock"></i></div>
+                                    <p>7:00 PM</p>
                                 </div>
                             </div>
-                            <h4 class="title"><a href="event-single.html">The Economy of the US: What are the Weakest
-                                    Spots?</a></h4>
-                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <h4 class="title"><a href="/contact">Healing & Deliverance Night</a></h4>
+                            <p class="description">Experience the power of God through prayer, healing, and prophetic
+                                impartation in this virtual encounter with Apostle Geoffrey.</p>
                             <div class="btn-wrapper">
-                                <a href="event-single.html" class="boxed-btn event-btn"><i
-                                        class="fas fa-arrow-right"></i>Read More</a>
+                                <a href="/contact" class="boxed-btn event-btn"><i
+                                        class="fas fa-arrow-right"></i>Learn more</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Event 4 -->
                 <div class="col-lg-6">
                     <div class="event-single-items">
-                        <div class="event-img" style="background-image: url(assets/img/evnt-04.png);">
-                        </div>
+                        <div class="event-img" style="background-image: url(assets/img/gallery44.jpg);"></div>
                         <div class="content">
                             <div class="post-mate">
                                 <h2 class="post-date">23</h2>
-                                <div class="post-month">feb</div>
+                                <div class="post-month">Feb</div>
                             </div>
                             <div class="subtitle">
                                 <div class="location">
-                                    <div class="icon">
-                                        <i class="icon-location"></i>
-                                    </div>
-                                    <p>684 Ann St. FL 34608</p>
+                                    <div class="icon"><i class="icon-location"></i></div>
+                                    <p>Agape Temple Grounds, Nairobi</p>
                                 </div>
                                 <div class="time">
-                                    <div class="icon">
-                                        <i class="icon-clock"></i>
-                                    </div>
-                                    <p>12:00 am</p>
+                                    <div class="icon"><i class="icon-clock"></i></div>
+                                    <p>3:00 PM</p>
                                 </div>
                             </div>
-                            <h4 class="title"><a href="event-single.html">The Economy of the US: What are the Weakest
-                                    Spots?</a></h4>
-                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <h4 class="title"><a href="/contact">Worship & Word Outdoor Rally</a></h4>
+                            <p class="description">A powerful open-air rally bringing together worshippers, musicians,
+                                and preachers for one purpose — Jesus.</p>
                             <div class="btn-wrapper">
-                                <a href="event-single.html" class="boxed-btn event-btn"><i
-                                        class="fas fa-arrow-right"></i>Read More</a>
+                                <a href="/contact" class="boxed-btn event-btn"><i
+                                        class="fas fa-arrow-right"></i>Learn more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-9 col-9">
-                    <div class="blog-pagination style-01">
-                        <div class="blog-pagination style-01 margin-top-30">
-                            <ul>
-                                <li><span>PREV</span></li>
-                                <li><a class="page-numbers" href="#">01</a></li>
-                                <li><a class="page-numbers current" href="#">02</a></li>
-                                <li><a class="page-numbers" href="#">03</a></li>
-                                <li><a class="page-numbers" href="#">04</a></li>
-                                <li><span class="next">NEXT</span> </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
     </div>
+
     <!-- Event Items Section Start Here -->
 
     <!-- footer area start -->
