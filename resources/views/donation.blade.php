@@ -175,7 +175,8 @@
                             and love.</p>
                     </div>
 
-                    <form class="donation-form wow animate__animated animate__fadeInUp" action="#" method="POST">
+                    <form id="donationForm" class="donation-form" method="POST">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -208,13 +209,55 @@
                             </div>
                             <div class="button-wrapper text-center">
                                 <button type="submit" class="modern-donate-btn">
-                                    <i class="fas fa-paper-plane"></i> Send Request
+                                    <i class="fas fa-paper-plane"></i> <span class="btn-text">Send Request</span>
+                                    <span class="spinner-border spinner-border-sm d-none" role="status"
+                                        id="formSpinner"></span>
                                 </button>
                             </div>
 
                         </div>
                     </form>
+                    <div id="formMessage" class="text-center mt-3"></div>
 
+                    <script>
+                        document.getElementById('donationForm').addEventListener('submit', async function(e) {
+                            e.preventDefault();
+
+                            const form = e.target;
+                            const formData = new FormData(form);
+                            const messageBox = document.getElementById('formMessage');
+                            const spinner = document.getElementById('formSpinner');
+                            const buttonText = form.querySelector('.btn-text');
+
+                            spinner.classList.remove('d-none');
+                            buttonText.textContent = 'Sending...';
+                            messageBox.innerHTML = '';
+
+                            try {
+                                const response = await fetch("{{ route('donation.submit') }}", {
+                                    method: 'POST',
+                                    headers: {
+                                        'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+                                    },
+                                    body: formData
+                                });
+
+                                const result = await response.json();
+                                if (result.success) {
+                                    messageBox.innerHTML = `<div class="alert alert-success">${result.message}</div>`;
+                                    form.reset();
+                                } else {
+                                    messageBox.innerHTML =
+                                        `<div class="alert alert-danger">An error occurred. Try again.</div>`;
+                                }
+                            } catch (error) {
+                                messageBox.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+                            } finally {
+                                spinner.classList.add('d-none');
+                                buttonText.textContent = 'Send Request';
+                            }
+                        });
+                    </script>
                     <div class="paypal-donate text-center mt-5">
                         <p><strong>Prefer to donate directly?</strong></p>
                         <a href="https://www.paypal.com/donate?business=agapetempleglobalministryafric@gmail.com"

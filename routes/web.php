@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DonationController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -27,3 +28,7 @@ require __DIR__ . '/auth.php';
 Route::fallback(function () {
     return response()->view('error', [], 404);
 });
+
+
+Route::post('/contact-submit', [App\Http\Controllers\ContactController::class, 'submit'])->name('contact.submit');
+Route::post('/donation-submit', [DonationController::class, 'store'])->name('donation.submit');

@@ -238,56 +238,208 @@
                                                 alt="">
                                             <h6 class="title">Contact Now</h6>
                                         </div>
-                                        <form action="https://themeim.com/demo/senatory/request.html"
-                                            class="contact-page-form" novalidate="novalidate">
+                                        <form id="contactForm" class="contact-page-form" novalidate>
+                                            @csrf
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-12">
                                                     <div class="form-group">
-                                                        <input type="text" name="fname"
-                                                            placeholder="First Name*" class="form-control"
-                                                            required="" aria-required="true">
+                                                        <input type="text" name="first_name"
+                                                            placeholder="First Name*" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-12">
                                                     <div class="form-group">
-                                                        <input type="text" name="fname" placeholder="Last Name*"
-                                                            class="form-control" required="" aria-required="true">
+                                                        <input type="text" name="last_name"
+                                                            placeholder="Last Name*" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-12">
                                                     <div class="form-group">
-                                                        <input type="email" name="lname" placeholder="Email*"
-                                                            class="form-control" required="" aria-required="true">
+                                                        <input type="email" name="email" placeholder="Email*"
+                                                            class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-12">
                                                     <div class="form-group">
                                                         <input type="tel" name="phone"
-                                                            placeholder="Phone Number*" class="form-control"
-                                                            required="" aria-required="true">
+                                                            placeholder="Phone Number*" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 col-sm-12">
                                                     <div class="form-group">
-                                                        <input type="text" name="fname" placeholder="Subject"
-                                                            class="form-control" required="" aria-required="true">
+                                                        <input type="text" name="subject" placeholder="Subject"
+                                                            class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group style-01">
-                                                        <textarea name="msg" id="msg" placeholder="Address" class="text-area"></textarea>
+                                                        <textarea name="message" id="msg" placeholder="Address" class="text-area"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="btn-wrapper desktop-center">
-                                                        <a href="#"
-                                                            class="boxed-btn political-btn style-01">JOIN NOW<i
-                                                                class="icon-paper-plan"></i></a>
+                                                        <button type="submit"
+                                                            class="boxed-btn political-btn style-01">
+                                                            <span id="btnText">SEND NOW</span>
+                                                            <div id="loading" class="modern-loader"
+                                                                style="display:none;">
+                                                                <div class="dot-pulse"></div>
+                                                            </div>
+                                                            <i class="icon-paper-plan"></i>
+                                                        </button>
+                                                        <div id="responseMsg" class="mt-3"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
                                     </div>
+
+                                    <style>
+                                        /* Modern Loading Animation */
+                                        .modern-loader {
+                                            display: inline-block;
+                                            position: relative;
+                                            width: 80px;
+                                            vertical-align: middle;
+                                        }
+
+                                        .dot-pulse {
+                                            position: relative;
+                                            left: -9999px;
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            background-color: #28a745;
+                                            color: #28a745;
+                                            box-shadow: 9999px 0 0 -5px;
+                                            animation: dot-pulse 1.5s infinite linear;
+                                            animation-delay: 0.25s;
+                                        }
+
+                                        .dot-pulse::before,
+                                        .dot-pulse::after {
+                                            content: '';
+                                            display: inline-block;
+                                            position: absolute;
+                                            top: 0;
+                                            width: 6px;
+                                            height: 6px;
+                                            border-radius: 50%;
+                                            background-color: #28a745;
+                                            color: #28a745;
+                                        }
+
+                                        .dot-pulse::before {
+                                            box-shadow: 9984px 0 0 -5px;
+                                            animation: dot-pulse-before 1.5s infinite linear;
+                                            animation-delay: 0s;
+                                        }
+
+                                        .dot-pulse::after {
+                                            box-shadow: 10014px 0 0 -5px;
+                                            animation: dot-pulse-after 1.5s infinite linear;
+                                            animation-delay: 0.5s;
+                                        }
+
+                                        @keyframes dot-pulse-before {
+                                            0% {
+                                                box-shadow: 9984px 0 0 -5px;
+                                            }
+
+                                            30% {
+                                                box-shadow: 9984px 0 0 2px;
+                                            }
+
+                                            60%,
+                                            100% {
+                                                box-shadow: 9984px 0 0 -5px;
+                                            }
+                                        }
+
+                                        @keyframes dot-pulse {
+                                            0% {
+                                                box-shadow: 9999px 0 0 -5px;
+                                            }
+
+                                            30% {
+                                                box-shadow: 9999px 0 0 2px;
+                                            }
+
+                                            60%,
+                                            100% {
+                                                box-shadow: 9999px 0 0 -5px;
+                                            }
+                                        }
+
+                                        @keyframes dot-pulse-after {
+                                            0% {
+                                                box-shadow: 10014px 0 0 -5px;
+                                            }
+
+                                            30% {
+                                                box-shadow: 10014px 0 0 2px;
+                                            }
+
+                                            60%,
+                                            100% {
+                                                box-shadow: 10014px 0 0 -5px;
+                                            }
+                                        }
+
+                                        /* Response Message Styling */
+                                        .response-message {
+                                            padding: 10px 15px;
+                                            border-radius: 5px;
+                                            background-color: #fff;
+                                            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                                            font-weight: 500;
+                                            margin-top: 15px;
+                                        }
+
+                                        .success-message {
+                                            color: #28a745;
+                                        }
+
+                                        .error-message {
+                                            color: #dc3545;
+                                        }
+                                    </style>
+
+                                    <script>
+                                        document.getElementById('contactForm').addEventListener('submit', function(e) {
+                                            e.preventDefault();
+                                            let form = this;
+                                            let data = new FormData(form);
+
+                                            document.getElementById('btnText').style.display = 'none';
+                                            document.getElementById('loading').style.display = 'inline-block';
+                                            document.getElementById('responseMsg').innerHTML = '';
+
+                                            fetch("{{ route('contact.submit') }}", {
+                                                    method: 'POST',
+                                                    headers: {
+                                                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                                                    },
+                                                    body: data
+                                                }).then(res => res.json())
+                                                .then(data => {
+                                                    document.getElementById('btnText').style.display = 'inline';
+                                                    document.getElementById('loading').style.display = 'none';
+
+                                                    let messageClass = data.success ? 'success-message' : 'error-message';
+                                                    document.getElementById('responseMsg').innerHTML =
+                                                        `<div class="response-message ${messageClass}">${data.message}</div>`;
+
+                                                    if (data.success) form.reset();
+                                                }).catch(() => {
+                                                    document.getElementById('btnText').style.display = 'inline';
+                                                    document.getElementById('loading').style.display = 'none';
+                                                    document.getElementById('responseMsg').innerHTML =
+                                                        `<div class="response-message error-message">Something went wrong. Try again.</div>`;
+                                                });
+                                        });
+                                    </script>
+
                                 </div>
                             </div>
                         </div>
