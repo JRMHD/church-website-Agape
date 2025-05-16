@@ -47,7 +47,12 @@
                             </li>
                             <li class="single-info-item">
                                 <div class="icon"><i class="icon-phone"></i></div>
-                                <div class="details">+2547 014 64313</div>
+                                <div class="details">+254 701 464313</div>
+                            </li>
+
+                            <li class="single-info-item">
+                                <div class="icon"><i class="icon-phone"></i></div>
+                                <div class="details">+254 797 189400</div>
                             </li>
                         </ul>
                     </div>
