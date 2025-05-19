@@ -66,7 +66,7 @@
             <div class="responsive-mobile-menu">
                 <div class="logo-wrapper">
                     <a href="/" class="logo">
-                        <img src="/assets/img/logo.png" alt="" style="width: 100px; height: auto;" />
+                        <img src="/assets/img/ATGMLOGO.png" alt="" style="width: 120px; height: auto;" />
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu"

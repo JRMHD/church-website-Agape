@@ -487,6 +487,7 @@
             </div>
             <div class="political-gallery-item">
                 <div class="row">
+                    <!-- Left Column -->
                     <div class="col-lg-3">
                         <div class="row">
                             <div class="col-lg-12 col-md-6">
@@ -512,9 +513,23 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- New Image -->
+                            <div class="col-lg-12 col-md-6">
+                                <div
+                                    class="gallery-single-items wow animate__animated animate__fadeInLeft animate__delay-2s">
+                                    <div class="thumb">
+                                        <img src="assets/img/new2.jpg" alt="New Ministry Moment">
+                                        <div class="cart-icon">
+                                            <a class="image-popup" href="assets/img/new2.jpg"><i
+                                                    class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+                    <!-- Center Column -->
                     <div class="col-lg-6">
                         <div class="gallery-single-items wow animate__animated animate__fadeInUp">
                             <div class="thumb">
@@ -528,14 +543,25 @@
                                 <h6 class="title">AGAPE TEMPLE — Empowered to Serve</h6>
                             </div>
                         </div>
+                        <!-- New Center Image -->
+                        <div
+                            class="gallery-single-items wow animate__animated animate__fadeInUp animate__delay-1s mt-3">
+                            <div class="thumb">
+                                <img src="assets/img/new3.jpg" alt="Ministry Impact">
+                                <div class="cart-icon">
+                                    <a class="image-popup" href="assets/img/new3.jpg"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
+                    <!-- Right Column -->
                     <div class="col-lg-3">
                         <div class="row">
                             <div class="col-lg-12 col-md-6">
                                 <div class="gallery-single-items wow animate__animated animate__fadeInRight">
                                     <div class="thumb">
-                                        <img src="assets/img/GALLERY 3.jpg" alt="Church family selfie">
+                                        <img src="assets/img/new1.jpg" alt="Church family selfie">
                                         <div class="cart-icon">
                                             <a class="image-popup" href="assets/img/GALLERY 3.jpg"><i
                                                     class="fas fa-plus"></i></a>
@@ -555,12 +581,26 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- New Image -->
+                            <div class="col-lg-12 col-md-6">
+                                <div
+                                    class="gallery-single-items wow animate__animated animate__fadeInRight animate__delay-2s">
+                                    <div class="thumb">
+                                        <img src="assets/img/new4.jpg" alt="Joyful Celebration">
+                                        <div class="cart-icon">
+                                            <a class="image-popup" href="assets/img/new4.jpg"><i
+                                                    class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </div> <!-- End Right Column -->
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Church Gallery Section End Here -->
 
 

@@ -8,8 +8,8 @@
                         <div class="footer-widget widget">
                             <div class="about_us_widget wow animate__animated animate__fadeInUp">
                                 <a href="{{ url('/') }}" class="footer-logo">
-                                    <img src="{{ asset('assets/img/footer-logo.png') }}" alt="footer logo"
-                                        style="width: 100px; height: auto;">
+                                    <img src="{{ asset('/assets/img/ATGMLOGO.png') }}" alt="footer logo"
+                                        style="width: 120px; height: auto;">
                                 </a>
                                 <p>
                                     Agape Temple Global Ministry has been a beacon of hope and spiritual growth, serving

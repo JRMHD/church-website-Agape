@@ -174,22 +174,26 @@
                     <div class="section-title home-six desktop-center">
                         <h4 class="title">Our Mission & Vision</h4>
                         <p class="description">
-                            At Agape Temple Global Ministry, our mission is to preach the Gospel of Jesus Christ,
-                            nurture spiritual growth, and serve communities in love and truth. Our vision is to build a
-                            Spirit-filled, Christ-centered church impacting lives across generations and nations.
+                            At Agape Temple Global Ministry, we envision a world where every soul experiences the
+                            transformative power of God’s love, and every community is uplifted through compassion,
+                            faith, and action. Our mission is to preach the Gospel of Jesus Christ, meet the physical
+                            and spiritual needs of individuals, and empower lives through biblical truth and service.
                         </p>
                     </div>
                 </div>
             </div>
+
+            <!-- Start 4 horizontal cards -->
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <!-- Vision -->
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="mission-single-item">
                         <div class="content">
                             <span class="content-no">01</span>
-                            <h6 class="title">Spiritual Growth</h6>
+                            <h6 class="title">Our Vision</h6>
                             <p>
-                                We are committed to discipling believers into maturity in Christ through prayer, sound
-                                teaching, and vibrant worship.
+                                We envision Spirit-filled communities where every person has access to the Word,
+                                worship, and wholeness—free from spiritual darkness, poverty, or injustice.
                             </p>
                         </div>
                         <div class="progress-content">
@@ -201,14 +205,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+
+                <!-- Mission -->
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="mission-single-item">
                         <div class="content">
                             <span class="content-no">02</span>
-                            <h6 class="title">Healing & Compassion</h6>
+                            <h6 class="title">Our Mission</h6>
                             <p>
-                                Through community outreach and missions, we bring hope and healing to the sick, hurting,
-                                and brokenhearted.
+                                Our mission is to transform lives through discipleship, healing, education, and
+                                outreach. We serve the vulnerable with love and empower generations to walk in divine
+                                purpose.
                             </p>
                         </div>
                         <div class="progress-content">
@@ -220,14 +227,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+
+                <!-- What Sets Us Apart -->
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="mission-single-item">
                         <div class="content">
                             <span class="content-no">03</span>
-                            <h6 class="title">Empowering Generations</h6>
+                            <h6 class="title">What Sets Us Apart</h6>
                             <p>
-                                We invest in the next generation by raising godly leaders, mentoring youth, and
-                                empowering families through biblical principles.
+                                We are more than a church—we are a movement. With Christ at the center, we prioritize
+                                prayer, transparency, and sustainable impact in every mission we undertake.
+                            </p>
+                        </div>
+                        <div class="progress-content">
+                            <div class="progress-item">
+                                <div class="single-progressbar">
+                                    <div class="html-03"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Our Impact -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="mission-single-item">
+                        <div class="content">
+                            <span class="content-no">04</span>
+                            <h6 class="title">Our Impact</h6>
+                            <p>
+                                From feeding families to hosting healing crusades and youth mentorship, our ministry has
+                                touched lives globally—restoring hope, dignity, and purpose.
                             </p>
                         </div>
                         <div class="progress-content">
@@ -242,6 +272,8 @@
             </div>
         </div>
     </section>
+
+
 
     <!-- Our Mission Section End Here -->
 
@@ -338,7 +370,7 @@
     <style>
         .single-party-member-item .thumb {
             height: 300px;
-            /* consistent height for all */
+
             overflow: hidden;
             border-radius: 8px;
         }
@@ -347,12 +379,12 @@
             height: 100%;
             width: 100%;
             object-fit: cover;
-            /* ensures image fills the box proportionally */
+
             display: block;
         }
     </style>
 
-    <!-- Party Member Section End Here -->
+
 
     <!-- People say section-02 start here -->
     <div class="people-say-section people-say-bg home-six" style="background-image: url(/assets/img/youth.jpg);">
@@ -459,7 +491,7 @@
         </div>
     </div>
 
-    <!-- People say section-02 end here -->
+  
 
 
 

@@ -463,20 +463,37 @@
                         </p>
                     </div>
                 </div>
-
             </div>
-            <div class="row">
+
+            <!-- First Map: Netherlands -->
+            <div class="row mb-4">
                 <div class="col-lg-12">
+                    <h5 class="text-center mb-3">Netherlands Location – Rivierweg 15, 2903 AJ Capelle aan den IJssel
+                    </h5>
                     <div class="contact_map">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78717.30239375167!2d4.495791947828513!3d51.93549118788602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd539cf503cd%3A0x242a8637186b5149!2sCapelle%20aan%20den%20IJssel%2C%20Netherlands!5e0!3m2!1sen!2ske!4v1747348260598!5m2!1sen!2ske"
-                            width="1900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.309028679106!2d4.5895234!3d51.928316599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c42dc8fcff2aa3%3A0x8e425c61a839e178!2sAgape%20Temple%20Global%20Ministry!5e0!3m2!1sen!2us!4v1747667834665!5m2!1sen!2us"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Map: Kenya -->
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <h5 class="text-center mb-3">Kenya Location – Malaa Shopping Center</h5>
+                    <div class="contact_map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8274234170017!2d37.1378342!3d-1.2769806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f6588a29dfb89%3A0x5a5a73ebd74a3dcc!2sMALAA%20SHOPPING%20CENTER!5e0!3m2!1sen!2ske!4v1747668135113!5m2!1sen!2ske"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Map Section Start Here -->
 
     <!-- footer area start -->
