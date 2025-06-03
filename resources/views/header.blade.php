@@ -66,7 +66,7 @@
             <div class="responsive-mobile-menu">
                 <div class="logo-wrapper">
                     <a href="/" class="logo">
-                        <img src="/assets/img/ATGMLOGO.png" alt="" style="width: 120px; height: auto;" />
+                        <img src="/assets/img/ATGMLOGO.png" alt="" style="width: 90px; height: auto;" />
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu"
@@ -77,8 +77,8 @@
             <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
                 <ul class="navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('/about') }}">About</a></li>
                     <li><a href="{{ url('/donation') }}">Donation</a></li>
+                    <li><a href="{{ url('/about') }}">About</a></li>
                     <li><a href="{{ url('/event') }}">Events</a></li>
                     <li><a href="{{ url('/contact') }}">Contact</a></li>
 
@@ -93,7 +93,7 @@
                 </div>
                 <div class="btn-wrapper">
                     <a href="/donation" class="boxed-btn btn-sanatory">
-                        Donation Now
+                        Donate Now
                         <i class="icon-paper-plan"></i>
                     </a>
                 </div>

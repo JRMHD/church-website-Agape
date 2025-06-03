@@ -266,6 +266,77 @@
                             <p class="mt-2">Click here to donate via PayPal</p>
                         </a>
                     </div>
+                    <!-- Bank Transfer Details Section -->
+                    <div class="bank-details">
+                        <h5>Bank Transfer Details</h5>
+                        <div class="bank-item">
+                            <div class="bank-name">1. CO-OPERATIVE BANK OF KENYA</div>
+                            <div class="account-info"><strong>Account Name:</strong> Geoffrey Job Mboga</div>
+                            <div class="account-info"><strong>Account Number:</strong> <span
+                                    class="account-number">01116168629800</span></div>
+                        </div>
+                        <div class="bank-item">
+                            <div class="bank-name">2. NATIONAL BANK OF KENYA</div>
+                            <div class="account-info"><strong>Account Name:</strong> Geoffrey Job Mboga</div>
+                            <div class="account-info"><strong>Account Number:</strong> <span
+                                    class="account-number">01289109793900</span></div>
+                        </div>
+                    </div>
+
+                    <style>
+                        .bank-details {
+                            background: #f8f9fa;
+                            border: 1px solid #e9ecef;
+                            border-radius: 10px;
+                            padding: 25px;
+                            margin-top: 30px;
+                            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                        }
+
+                        .bank-details h5 {
+                            color: #182848;
+                            margin-bottom: 20px;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+
+                        .bank-item {
+                            background: #fff;
+                            border-radius: 8px;
+                            padding: 20px;
+                            margin-bottom: 15px;
+                            border-left: 4px solid #4b6cb7;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+                        }
+
+                        .bank-item:last-child {
+                            margin-bottom: 0;
+                        }
+
+                        .bank-name {
+                            font-weight: 700;
+                            color: #182848;
+                            font-size: 16px;
+                            margin-bottom: 10px;
+                        }
+
+                        .account-info {
+                            margin-bottom: 5px;
+                            color: #555;
+                        }
+
+                        .account-info strong {
+                            color: #182848;
+                            font-weight: 600;
+                        }
+
+                        .account-number {
+                            font-family: monospace;
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: #4b6cb7;
+                        }
+                    </style>
                 </div>
             </div>
         </div>

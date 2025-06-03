@@ -297,8 +297,24 @@
                             </div>
                             <div class="content">
                                 <div class="author-meta">
-                                    <span class="author-name">Rev. Helene H. Oord</span>
-                                    <p class="designation">Founding Pastor</p>
+                                    <span class="author-name">Rev. Hélène H. Oord</span>
+                                    <p class="designation" style="font-size: 12px; margin: 2px 0;">Founding Pastor</p>
+                                    <p class="ministry-name" style="font-size: 11px; margin: 2px 0;">Agape Temple
+                                        Global Ministry</p>
+                                    <div class="additional-roles" style="margin: 3px 0;">
+                                        <p style="font-size: 11px; margin: 2px 0; line-height: 1.2;">- Ministry
+                                            Advisor/Communication/PR
+                                        </p>
+                                        <p style="font-size: 11px; margin: 2px 0; line-height: 1.2;"> +316 27171722
+                                        </p>
+                                    </div>
+                                    <div class="contact-info" style="margin: 3px 0;">
+                                        <p
+                                            style="font-size: 10px; margin: 2px 0; line-height: 1.2; display: block !important; visibility: visible !important;">
+                                            <strong>Contact:</strong> Phn/W-App <a href="tel:+31627171722"
+                                                style="color: #4b6cb7; text-decoration: none;">+316 27171722</a>
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="social-links">
                                     <ul>
@@ -309,6 +325,10 @@
                                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                         <li><a href="https://www.youtube.com/@agapetempleglobalministryafric"><i
                                                     class="fab fa-youtube"></i></a></li>
+                                        <li><a href="https://worldviewmission.nl/?page_id=70" target="_blank"><i
+                                                    class="fas fa-globe"></i></a></li>
+                                        <li><a href="https://worldviewmission.nl/?page_id=72" target="_blank"><i
+                                                    class="fas fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -491,7 +511,7 @@
         </div>
     </div>
 
-  
+
 
 
 
