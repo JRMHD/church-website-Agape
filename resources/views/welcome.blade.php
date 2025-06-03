@@ -87,26 +87,31 @@
         <!-- Carousel Background Images -->
         <div class="carousel-background"
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+            <!-- Slide 1: Feeding Vulnerable Children -->
             <div class="carousel-slide active"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/img/carousel1.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 1;">
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/img/feeding-children.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 1;">
             </div>
+            <!-- Slide 2: Feeding the Poor Community -->
             <div class="carousel-slide"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/img/carousel2.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 0;">
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/img/Feeding-the-poor.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 0;">
             </div>
+            <!-- Slide 3: Founding Pastor Rev Hélène H. Oord -->
             <div class="carousel-slide"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/img/carousel3.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 0;">
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/img/PSTHELLEN.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 0;">
+            </div>
+            <!-- Slide 4: Additional Pastor/Ministry Image -->
+            <div class="carousel-slide"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/img/carousel1.jpg'); background-size: cover; background-position: center; transition: opacity 0.8s ease-in-out; opacity: 0;">
             </div>
         </div>
 
-
-
         <!-- Navigation Arrows -->
         <button class="carousel-nav prev" onclick="prevSlide()"
-            style="position: absolute; left: 30px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.6); color: white; width: 55px; height: 55px; border-radius: 50%; cursor: pointer; font-size: 18px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); z-index: 100;">
+            style="position: absolute; left: 30px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.6); color: white; width: 55px; height: 55px; border-radius: 50%; cursor: pointer; font-size: 18px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); z-index: 100; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
             <i class="fas fa-chevron-left"></i>
         </button>
         <button class="carousel-nav next" onclick="nextSlide()"
-            style="position: absolute; right: 30px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.6); color: white; width: 55px; height: 55px; border-radius: 50%; cursor: pointer; font-size: 18px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); z-index: 100;">
+            style="position: absolute; right: 30px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.6); color: white; width: 55px; height: 55px; border-radius: 50%; cursor: pointer; font-size: 18px; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); z-index: 100; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
             <i class="fas fa-chevron-right"></i>
         </button>
 
@@ -114,48 +119,133 @@
         <div class="carousel-indicators"
             style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); display: flex; gap: 12px; z-index: 100;">
             <button class="indicator active" onclick="goToSlide(0)"
-                style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; background: white; cursor: pointer; transition: all 0.3s ease; opacity: 1; box-shadow: 0 2px 8px rgba(0,0,0,0.3);"></button>
+                style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; background: white; cursor: pointer; transition: all 0.3s ease; opacity: 1; box-shadow: 0 2px 8px rgba(0,0,0,0.3); animation: pulse 2s infinite;"></button>
             <button class="indicator" onclick="goToSlide(1)"
                 style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; background: transparent; cursor: pointer; transition: all 0.3s ease; opacity: 0.7; box-shadow: 0 2px 8px rgba(0,0,0,0.3);"></button>
             <button class="indicator" onclick="goToSlide(2)"
                 style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; background: transparent; cursor: pointer; transition: all 0.3s ease; opacity: 0.7; box-shadow: 0 2px 8px rgba(0,0,0,0.3);"></button>
+            <button class="indicator" onclick="goToSlide(3)"
+                style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; background: transparent; cursor: pointer; transition: all 0.3s ease; opacity: 0.7; box-shadow: 0 2px 8px rgba(0,0,0,0.3);"></button>
         </div>
 
         <!-- Main Content Container -->
-        <div class="container nav-container home-three" style="position: relative; z-index: 50; width: 100%;">
+        <div class="container nav-container home-three"
+            style="position: relative; z-index: 50; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="header-inner" style="text-align: center; color: white;">
-                        <!-- header inner -->
-                        <div class="subtitle style-01" style="margin-bottom: 25px; animation: fadeInUp 1.2s ease-out;">
+                    <!-- Slide 1 Content: Feeding Vulnerable Children -->
+                    <div class="header-inner slide-content" id="slide-content-0"
+                        style="text-align: center; color: white; display: block;">
+                        <div class="subtitle style-01"
+                            style="margin-bottom: 25px; animation: fadeInUp 1.2s ease-out;">
                             <span
                                 style="font-weight: bold; color: white; font-size: 20px; letter-spacing: 3px; text-shadow: 2px 2px 6px rgba(0,0,0,0.8); text-transform: uppercase; display: inline-block; padding: 10px 25px; background: rgba(255,255,255,0.1); border-radius: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-                                AGAPE TEMPLE GLOBAL MINISTRY AFRICA
+                                FEEDING VULNERABLE CHILDREN
                             </span>
                         </div>
                         <h1 class="title style-01"
                             style="font-size: 4rem; font-weight: 800; margin-bottom: 30px; line-height: 1.1; text-shadow: 3px 3px 8px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.3s both; background: linear-gradient(45deg, #ffffff, #f0f0f0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-                            Transforming Lives Through the Power of God's Love
+                            Nourishing Bodies, Nurturing Souls
                         </h1>
                         <p class="style-01"
                             style="font-size: 1.3rem; line-height: 1.7; margin-bottom: 40px; max-width: 850px; margin-left: auto; margin-right: auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.6s both; color: #f8f8f8; font-weight: 300;">
-                            Join Founding Pastor Rev. Helene H. Oord and Apostle Geoffrey J. Mboga as we spread the
-                            Gospel of Jesus Christ from the Netherlands to Nairobi, Kenya — igniting faith, healing
-                            hearts, and equipping believers worldwide.
+                            Through our community outreach programs, we provide nutritious meals to vulnerable children
+                            in Nairobi and surrounding areas. Every plate served is a testament to God's love and our
+                            commitment to caring for the least among us.
                         </p>
                         <div class="btn-wrapper desktop-center"
                             style="display: flex; gap: 25px; justify-content: center; align-items: center; flex-wrap: wrap; animation: fadeInUp 1.2s ease-out 0.9s both; position: relative; z-index: 100;">
                             <a href="/donation" class="boxed-btn btn-sanatory style-01 text-uppercase"
                                 style="background: linear-gradient(135deg, #ff6b35, #f7931e, #ffab00); color: white; padding: 18px 35px; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 16px; transition: all 0.4s ease; box-shadow: 0 6px 20px rgba(255,107,53,0.4); display: inline-flex; align-items: center; gap: 12px; text-transform: uppercase; letter-spacing: 1px; border: none; position: relative; overflow: hidden; z-index: 101;">
-                                <span style="position: relative; z-index: 2;">DONATE NOW</span>
-                                <i class="fas fa-chevron-right"
+                                <span style="position: relative; z-index: 2;">FEED A CHILD</span>
+                                <i class="fas fa-utensils"
                                     style="position: relative; z-index: 2; transition: transform 0.3s ease;"></i>
-                                <div
-                                    style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(135deg, #ff8a65, #ffb74d); transition: left 0.4s ease; z-index: 1;">
-                                </div>
                             </a>
-                            <a class="video-play style-04 mfp-iframe"
-                                href="https://www.youtube.com/@agapetempleglobalministryafric"
+                            <a href="#community-programs" class="video-play style-04 mfp-iframe"
+                                style="color: white; text-decoration: none; display: inline-flex; align-items: center; gap: 18px; padding: 18px 30px; border: 2px solid rgba(255,255,255,0.8); border-radius: 50px; transition: all 0.4s ease; background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); font-weight: 700; position: relative; z-index: 101;">
+                                <div class="play-icon"
+                                    style="width: 55px; height: 55px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #333; transition: all 0.4s ease; box-shadow: 0 4px 15px rgba(255,255,255,0.3);">
+                                    <i class="fas fa-hand-holding-heart" style="font-size: 18px;"></i>
+                                </div>
+                                <span
+                                    style="font-weight: 700; letter-spacing: 1.5px; font-size: 16px; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">OUR
+                                    PROGRAMS</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 Content: Feeding the Poor Community -->
+                    <div class="header-inner slide-content" id="slide-content-1"
+                        style="text-align: center; color: white; display: none;">
+                        <div class="subtitle style-01"
+                            style="margin-bottom: 25px; animation: fadeInUp 1.2s ease-out;">
+                            <span
+                                style="font-weight: bold; color: white; font-size: 20px; letter-spacing: 3px; text-shadow: 2px 2px 6px rgba(0,0,0,0.8); text-transform: uppercase; display: inline-block; padding: 10px 25px; background: rgba(255,255,255,0.1); border-radius: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+                                COMMUNITY OUTREACH MINISTRY
+                            </span>
+                        </div>
+                        <h1 class="title style-01"
+                            style="font-size: 4rem; font-weight: 800; margin-bottom: 30px; line-height: 1.1; text-shadow: 3px 3px 8px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.3s both; background: linear-gradient(45deg, #ffffff, #f0f0f0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            Serving Our Community With Love
+                        </h1>
+                        <p class="style-01"
+                            style="font-size: 1.3rem; line-height: 1.7; margin-bottom: 40px; max-width: 850px; margin-left: auto; margin-right: auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.6s both; color: #f8f8f8; font-weight: 300;">
+                            We believe in meeting people where they are. Our regular feeding programs reach families and
+                            individuals facing hardship, providing not just food but hope, dignity, and the message of
+                            God's unconditional love.
+                        </p>
+                        <div class="btn-wrapper desktop-center"
+                            style="display: flex; gap: 25px; justify-content: center; align-items: center; flex-wrap: wrap; animation: fadeInUp 1.2s ease-out 0.9s both; position: relative; z-index: 100;">
+                            <a href="/volunteer" class="boxed-btn btn-sanatory style-01 text-uppercase"
+                                style="background: linear-gradient(135deg, #28a745, #20c997, #17a2b8); color: white; padding: 18px 35px; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 16px; transition: all 0.4s ease; box-shadow: 0 6px 20px rgba(40,167,69,0.4); display: inline-flex; align-items: center; gap: 12px; text-transform: uppercase; letter-spacing: 1px; border: none; position: relative; overflow: hidden; z-index: 101;">
+                                <span style="position: relative; z-index: 2;">VOLUNTEER WITH US</span>
+                                <i class="fas fa-hands-helping"
+                                    style="position: relative; z-index: 2; transition: transform 0.3s ease;"></i>
+                            </a>
+                            <a href="#about-ministry" class="video-play style-04 mfp-iframe"
+                                style="color: white; text-decoration: none; display: inline-flex; align-items: center; gap: 18px; padding: 18px 30px; border: 2px solid rgba(255,255,255,0.8); border-radius: 50px; transition: all 0.4s ease; background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); font-weight: 700; position: relative; z-index: 101;">
+                                <div class="play-icon"
+                                    style="width: 55px; height: 55px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #333; transition: all 0.4s ease; box-shadow: 0 4px 15px rgba(255,255,255,0.3);">
+                                    <i class="fas fa-users" style="font-size: 18px;"></i>
+                                </div>
+                                <span
+                                    style="font-weight: 700; letter-spacing: 1.5px; font-size: 16px; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">LEARN
+                                    MORE</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 Content: Founding Pastor Rev Hélène H. Oord -->
+                    <div class="header-inner slide-content" id="slide-content-2"
+                        style="text-align: center; color: white; display: none;">
+                        <div class="subtitle style-01"
+                            style="margin-bottom: 25px; animation: fadeInUp 1.2s ease-out;">
+                            <span
+                                style="font-weight: bold; color: white; font-size: 20px; letter-spacing: 3px; text-shadow: 2px 2px 6px rgba(0,0,0,0.8); text-transform: uppercase; display: inline-block; padding: 10px 25px; background: rgba(255,255,255,0.1); border-radius: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+                                FOUNDING PASTOR
+                            </span>
+                        </div>
+                        <h1 class="title style-01"
+                            style="font-size: 4rem; font-weight: 800; margin-bottom: 30px; line-height: 1.1; text-shadow: 3px 3px 8px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.3s both; background: linear-gradient(45deg, #ffffff, #f0f0f0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            Rev. Hélène H. Oord
+                        </h1>
+                        <p class="style-01"
+                            style="font-size: 1.3rem; line-height: 1.7; margin-bottom: 40px; max-width: 850px; margin-left: auto; margin-right: auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.6s both; color: #f8f8f8; font-weight: 300;">
+                            With a heart passionate for God's kingdom and a vision for transformation, Pastor Hélène
+                            leads our ministry from the Netherlands, spreading the Gospel across continents. Her
+                            commitment to serving the vulnerable and empowering believers continues to impact lives
+                            globally.
+                        </p>
+                        <div class="btn-wrapper desktop-center"
+                            style="display: flex; gap: 25px; justify-content: center; align-items: center; flex-wrap: wrap; animation: fadeInUp 1.2s ease-out 0.9s both; position: relative; z-index: 100;">
+                            <a href="/about-pastor" class="boxed-btn btn-sanatory style-01 text-uppercase"
+                                style="background: linear-gradient(135deg, #6f42c1, #e83e8c, #fd7e14); color: white; padding: 18px 35px; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 16px; transition: all 0.4s ease; box-shadow: 0 6px 20px rgba(111,66,193,0.4); display: inline-flex; align-items: center; gap: 12px; text-transform: uppercase; letter-spacing: 1px; border: none; position: relative; overflow: hidden; z-index: 101;">
+                                <span style="position: relative; z-index: 2;">MEET PASTOR</span>
+                                <i class="fas fa-user-circle"
+                                    style="position: relative; z-index: 2; transition: transform 0.3s ease;"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@agapetempleglobalministryafric" target="_blank"
+                                class="video-play style-04 mfp-iframe"
                                 style="color: white; text-decoration: none; display: inline-flex; align-items: center; gap: 18px; padding: 18px 30px; border: 2px solid rgba(255,255,255,0.8); border-radius: 50px; transition: all 0.4s ease; background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); font-weight: 700; position: relative; z-index: 101;">
                                 <div class="play-icon"
                                     style="width: 55px; height: 55px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #333; transition: all 0.4s ease; box-shadow: 0 4px 15px rgba(255,255,255,0.3);">
@@ -163,168 +253,55 @@
                                 </div>
                                 <span
                                     style="font-weight: 700; letter-spacing: 1.5px; font-size: 16px; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">WATCH
-                                    MESSAGE</span>
+                                    SERMONS</span>
                             </a>
                         </div>
                     </div>
-                    <!-- //.header inner -->
+
+                    <!-- Slide 4 Content: General Ministry -->
+                    <div class="header-inner slide-content" id="slide-content-3"
+                        style="text-align: center; color: white; display: none;">
+                        <div class="subtitle style-01"
+                            style="margin-bottom: 25px; animation: fadeInUp 1.2s ease-out;">
+                            <span
+                                style="font-weight: bold; color: white; font-size: 20px; letter-spacing: 3px; text-shadow: 2px 2px 6px rgba(0,0,0,0.8); text-transform: uppercase; display: inline-block; padding: 10px 25px; background: rgba(255,255,255,0.1); border-radius: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+                                AGAPE TEMPLE GLOBAL MINISTRY AFRICA
+                            </span>
+                        </div>
+                        <h1 class="title style-01"
+                            style="font-size: 4rem; font-weight: 800; margin-bottom: 30px; line-height: 1.1; text-shadow: 3px 3px 8px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.3s both; background: linear-gradient(45deg, #ffffff, #f0f0f0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            Transforming Lives Through God's Love
+                        </h1>
+                        <p class="style-01"
+                            style="font-size: 1.3rem; line-height: 1.7; margin-bottom: 40px; max-width: 850px; margin-left: auto; margin-right: auto; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); animation: fadeInUp 1.2s ease-out 0.6s both; color: #f8f8f8; font-weight: 300;">
+                            Join us as we spread the Gospel of Jesus Christ across continents, from the Netherlands to
+                            Kenya and beyond. Together, we're building a global community united in faith, hope, and
+                            love, impacting lives one soul at a time.
+                        </p>
+                        <div class="btn-wrapper desktop-center"
+                            style="display: flex; gap: 25px; justify-content: center; align-items: center; flex-wrap: wrap; animation: fadeInUp 1.2s ease-out 0.9s both; position: relative; z-index: 100;">
+                            <a href="/donation" class="boxed-btn btn-sanatory style-01 text-uppercase"
+                                style="background: linear-gradient(135deg, #ff6b35, #f7931e, #ffab00); color: white; padding: 18px 35px; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 16px; transition: all 0.4s ease; box-shadow: 0 6px 20px rgba(255,107,53,0.4); display: inline-flex; align-items: center; gap: 12px; text-transform: uppercase; letter-spacing: 1px; border: none; position: relative; overflow: hidden; z-index: 101;">
+                                <span style="position: relative; z-index: 2;">SUPPORT MINISTRY</span>
+                                <i class="fas fa-heart"
+                                    style="position: relative; z-index: 2; transition: transform 0.3s ease;"></i>
+                            </a>
+                            <a href="/contact" class="video-play style-04 mfp-iframe"
+                                style="color: white; text-decoration: none; display: inline-flex; align-items: center; gap: 18px; padding: 18px 30px; border: 2px solid rgba(255,255,255,0.8); border-radius: 50px; transition: all 0.4s ease; background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); font-weight: 700; position: relative; z-index: 101;">
+                                <div class="play-icon"
+                                    style="width: 55px; height: 55px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #333; transition: all 0.4s ease; box-shadow: 0 4px 15px rgba(255,255,255,0.3);">
+                                    <i class="fas fa-globe-africa" style="font-size: 18px;"></i>
+                                </div>
+                                <span
+                                    style="font-weight: 700; letter-spacing: 1.5px; font-size: 16px; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">JOIN
+                                    US</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Header section End -->
-
-    <style>
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.05);
-            }
-        }
-
-        .indicator.active {
-            animation: pulse 2s infinite;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            .title.style-01 {
-                font-size: 3.5rem !important;
-            }
-
-            .carousel-nav {
-                width: 50px !important;
-                height: 50px !important;
-            }
-
-            .carousel-nav.prev {
-                left: 20px !important;
-            }
-
-            .carousel-nav.next {
-                right: 20px !important;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .header-area {
-                min-height: 90vh !important;
-            }
-
-            .title.style-01 {
-                font-size: 3rem !important;
-            }
-
-            .style-01 p {
-                font-size: 1.1rem !important;
-                max-width: 700px !important;
-            }
-
-            .btn-wrapper {
-                flex-direction: column !important;
-                gap: 20px !important;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .header-area {
-                min-height: 80vh !important;
-            }
-
-            .title.style-01 {
-                font-size: 2.5rem !important;
-                line-height: 1.2 !important;
-            }
-
-            .subtitle span {
-                font-size: 16px !important;
-                letter-spacing: 2px !important;
-                padding: 8px 20px !important;
-            }
-
-            .style-01 p {
-                font-size: 1rem !important;
-                margin-bottom: 30px !important;
-            }
-
-            .carousel-nav {
-                width: 45px !important;
-                height: 45px !important;
-                font-size: 16px !important;
-            }
-
-            .carousel-nav.prev {
-                left: 15px !important;
-            }
-
-            .carousel-nav.next {
-                right: 15px !important;
-            }
-
-            .boxed-btn,
-            .video-play {
-                padding: 15px 25px !important;
-                font-size: 14px !important;
-            }
-
-            .play-icon {
-                width: 45px !important;
-                height: 45px !important;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .title.style-01 {
-                font-size: 2rem !important;
-            }
-
-            .subtitle span {
-                font-size: 14px !important;
-                letter-spacing: 1px !important;
-                padding: 6px 15px !important;
-            }
-
-            .style-01 p {
-                font-size: 0.9rem !important;
-            }
-
-            .btn-wrapper {
-                gap: 15px !important;
-            }
-
-            .boxed-btn,
-            .video-play {
-                padding: 12px 20px !important;
-                font-size: 13px !important;
-            }
-
-            .carousel-indicators {
-                bottom: 20px !important;
-            }
-
-            .indicator {
-                width: 12px !important;
-                height: 12px !important;
-            }
-        }
-    </style>
 
 
     <!-- Header bottom Section Start -->
@@ -388,15 +365,21 @@
                     <div class="col-lg-6">
                         <div class="meet-member-img" style="background-image: url(/assets/img/revhellen.jpg);">
                             {{-- <div class="member-quotes">
-                                <h5 class="title">Faithfully Serving God's People for Over 20 Years</h5>
-                                <div class="icon">
-                                    <img src="assets/icon/quotes-02.svg" alt="">
-                                </div>
-                            </div> --}}
+                            <h5 class="title">Faithfully Serving God's People for Over 20 Years</h5>
+                            <div class="icon">
+                                <img src="assets/icon/quotes-02.svg" alt="">
+                            </div>
+                        </div> --}}
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="meet-single-items">
+                            <!-- Second Image -->
+                            <div class="pastor-second-image mb-4">
+                                <img src="/assets/img/pastorhelene.jpg.jpg" alt="Rev. Helene H. Oord"
+                                    class="img-fluid rounded shadow">
+                            </div>
+
                             <div class="content">
                                 <div class="subtitle wow animate__animated animate__fadeInUp">
                                     <p>get to know</p>
@@ -517,7 +500,7 @@
                         <div class="content">
                             <h6 class="title">Apostolic Teaching</h6>
                             <div class="icon">
-                                <span class="number">03</span>
+                                <span class="number">02</span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
@@ -530,7 +513,7 @@
                         <div class="content">
                             <h6 class="title">Holy Spirit Fire</h6>
                             <div class="icon">
-                                <span class="number">05</span>
+                                <span class="number">03</span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
@@ -545,7 +528,7 @@
                         <div class="content">
                             <h6 class="title">Prophetic Vision</h6>
                             <div class="icon">
-                                <span class="number">02</span>
+                                <span class="number">04</span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
@@ -558,7 +541,7 @@
                         <div class="content">
                             <h6 class="title">Global Missions</h6>
                             <div class="icon">
-                                <span class="number">04</span>
+                                <span class="number">05</span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
                                 <span class="icon-star"></span>
@@ -811,61 +794,40 @@
 
 
 
-
-
     <script>
         let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel-slide');
         const indicators = document.querySelectorAll('.indicator');
+        const slideContents = document.querySelectorAll('.slide-content');
         const totalSlides = slides.length;
-        let isTransitioning = false;
-
-        // Start auto-play immediately when page loads
-        let autoPlayInterval;
-
-        function initCarousel() {
-            // Ensure first slide is visible
-            showSlide(0);
-            // Start auto-play after 2 seconds
-            setTimeout(() => {
-                autoPlayInterval = setInterval(nextSlide, 4000); // Changed to 4 seconds
-            }, 2000);
-        }
 
         function showSlide(index) {
-            if (isTransitioning) return;
-            isTransitioning = true;
-
-            // Update indicators immediately
-            indicators.forEach((indicator, i) => {
-                if (i === index) {
-                    indicator.style.background = 'white';
-                    indicator.style.opacity = '1';
-                    indicator.style.transform = 'scale(1.2)';
-                    indicator.classList.add('active');
-                } else {
-                    indicator.style.background = 'transparent';
-                    indicator.style.opacity = '0.7';
-                    indicator.style.transform = 'scale(1)';
-                    indicator.classList.remove('active');
-                }
+            // Hide all slides and content
+            slides.forEach(slide => {
+                slide.style.opacity = '0';
             });
 
-            // Update slides
-            slides.forEach((slide, i) => {
-                if (i === index) {
-                    slide.style.opacity = '1';
-                    slide.classList.add('active');
-                } else {
-                    slide.style.opacity = '0';
-                    slide.classList.remove('active');
-                }
+            slideContents.forEach(content => {
+                content.style.display = 'none';
             });
 
-            // Reset transition flag
-            setTimeout(() => {
-                isTransitioning = false;
-            }, 800);
+            // Remove active class from all indicators
+            indicators.forEach(indicator => {
+                indicator.classList.remove('active');
+                indicator.style.background = 'transparent';
+                indicator.style.opacity = '0.7';
+                indicator.style.animation = 'none';
+            });
+
+            // Show current slide and content
+            slides[index].style.opacity = '1';
+            slideContents[index].style.display = 'block';
+
+            // Activate current indicator
+            indicators[index].classList.add('active');
+            indicators[index].style.background = 'white';
+            indicators[index].style.opacity = '1';
+            indicators[index].style.animation = 'pulse 2s infinite';
         }
 
         function nextSlide() {
@@ -879,114 +841,215 @@
         }
 
         function goToSlide(index) {
-            if (isTransitioning || currentSlide === index) return;
             currentSlide = index;
             showSlide(currentSlide);
-            // Reset auto-play timer
-            clearInterval(autoPlayInterval);
-            autoPlayInterval = setInterval(nextSlide, 4000);
         }
 
-        // Initialize carousel when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initCarousel);
-        } else {
-            initCarousel();
-        }
+        // Auto-advance slides every 7 seconds (longer to read different content)
+        setInterval(nextSlide, 7000);
 
-        // Pause auto-play on hover (optional)
-        document.querySelector('.header-area').addEventListener('mouseenter', () => {
-            clearInterval(autoPlayInterval);
-        });
-
-        document.querySelector('.header-area').addEventListener('mouseleave', () => {
-            clearInterval(autoPlayInterval);
-            autoPlayInterval = setInterval(nextSlide, 4000);
-        });
-
-        // Enhanced hover effects for navigation buttons
+        // Add hover effects to navigation buttons
         document.querySelectorAll('.carousel-nav').forEach(btn => {
             btn.addEventListener('mouseenter', function() {
-                this.style.background = 'rgba(255,255,255,0.3)';
-                this.style.borderColor = 'rgba(255,255,255,0.9)';
-                this.style.transform = this.classList.contains('prev') ? 'translateY(-50%) scale(1.15)' :
-                    'translateY(-50%) scale(1.15)';
-                this.style.boxShadow = '0 8px 25px rgba(255,255,255,0.2)';
+                this.style.background = 'rgba(255,255,255,0.25)';
+                this.style.transform = 'translateY(-50%) scale(1.1)';
+                this.style.boxShadow = '0 6px 25px rgba(0,0,0,0.4)';
             });
 
             btn.addEventListener('mouseleave', function() {
                 this.style.background = 'rgba(255,255,255,0.15)';
-                this.style.borderColor = 'rgba(255,255,255,0.6)';
                 this.style.transform = 'translateY(-50%) scale(1)';
-                this.style.boxShadow = 'none';
+                this.style.boxShadow = '0 4px 15px rgba(0,0,0,0.3)';
             });
         });
 
-        // Enhanced hover effects for main button
-        const mainBtn = document.querySelector('.boxed-btn');
-        if (mainBtn) {
-            mainBtn.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-3px) scale(1.05)';
-                this.style.boxShadow = '0 10px 30px rgba(255,107,53,0.6)';
-                const icon = this.querySelector('i');
-                const overlay = this.querySelector('div');
-                if (icon) icon.style.transform = 'translateX(5px)';
-                if (overlay) overlay.style.left = '0';
+        // Add hover effects to buttons
+        document.querySelectorAll('.boxed-btn').forEach(btn => {
+            btn.addEventListener('mouseenter', function() {
+                const overlay = this.querySelector('div') || document.createElement('div');
+                if (!this.querySelector('div')) {
+                    overlay.style.cssText =
+                        'position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1)); transition: left 0.4s ease; z-index: 1;';
+                    this.appendChild(overlay);
+                }
+                overlay.style.left = '0';
+                this.style.transform = 'translateY(-2px)';
+                this.querySelector('i').style.transform = 'translateX(5px)';
             });
 
-            mainBtn.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) scale(1)';
-                this.style.boxShadow = '0 6px 20px rgba(255,107,53,0.4)';
-                const icon = this.querySelector('i');
+            btn.addEventListener('mouseleave', function() {
                 const overlay = this.querySelector('div');
-                if (icon) icon.style.transform = 'translateX(0)';
                 if (overlay) overlay.style.left = '-100%';
+                this.style.transform = 'translateY(0)';
+                this.querySelector('i').style.transform = 'translateX(0)';
             });
-        }
+        });
 
-        // Enhanced hover effects for video button
-        const videoBtn = document.querySelector('.video-play');
-        if (videoBtn) {
-            videoBtn.addEventListener('mouseenter', function() {
+        // Add hover effects to video play buttons
+        document.querySelectorAll('.video-play').forEach(btn => {
+            btn.addEventListener('mouseenter', function() {
                 this.style.background = 'rgba(255,255,255,0.2)';
-                this.style.transform = 'translateY(-3px) scale(1.05)';
-                this.style.borderColor = 'rgba(255,255,255,1)';
-                const playIcon = this.querySelector('.play-icon');
-                if (playIcon) {
-                    playIcon.style.transform = 'scale(1.1)';
-                    playIcon.style.boxShadow = '0 6px 20px rgba(255,255,255,0.4)';
-                }
+                this.style.transform = 'translateY(-2px)';
+                this.querySelector('.play-icon').style.transform = 'scale(1.1)';
+                this.querySelector('.play-icon').style.background = '#f0f0f0';
             });
 
-            videoBtn.addEventListener('mouseleave', function() {
+            btn.addEventListener('mouseleave', function() {
                 this.style.background = 'rgba(255,255,255,0.1)';
-                this.style.transform = 'translateY(0) scale(1)';
-                this.style.borderColor = 'rgba(255,255,255,0.8)';
-                const playIcon = this.querySelector('.play-icon');
-                if (playIcon) {
-                    playIcon.style.transform = 'scale(1)';
-                    playIcon.style.boxShadow = '0 4px 15px rgba(255,255,255,0.3)';
-                }
-            });
-        }
-
-        // Indicator hover effects
-        document.querySelectorAll('.indicator').forEach(indicator => {
-            indicator.addEventListener('mouseenter', function() {
-                if (!this.classList.contains('active')) {
-                    this.style.opacity = '1';
-                    this.style.transform = 'scale(1.1)';
-                }
-            });
-
-            indicator.addEventListener('mouseleave', function() {
-                if (!this.classList.contains('active')) {
-                    this.style.opacity = '0.7';
-                    this.style.transform = 'scale(1)';
-                }
+                this.style.transform = 'translateY(0)';
+                this.querySelector('.play-icon').style.transform = 'scale(1)';
+                this.querySelector('.play-icon').style.background = 'white';
             });
         });
     </script>
+
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .title.style-01 {
+                font-size: 3.5rem !important;
+            }
+
+            .carousel-nav {
+                width: 50px !important;
+                height: 50px !important;
+            }
+
+            .carousel-nav.prev {
+                left: 20px !important;
+            }
+
+            .carousel-nav.next {
+                right: 20px !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .header-area {
+                min-height: 90vh !important;
+            }
+
+            .title.style-01 {
+                font-size: 3rem !important;
+            }
+
+            .style-01 p {
+                font-size: 1.1rem !important;
+                max-width: 700px !important;
+            }
+
+            .btn-wrapper {
+                flex-direction: column !important;
+                gap: 20px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-area {
+                min-height: 80vh !important;
+            }
+
+            .title.style-01 {
+                font-size: 2.5rem !important;
+                line-height: 1.2 !important;
+            }
+
+            .subtitle span {
+                font-size: 16px !important;
+                letter-spacing: 2px !important;
+                padding: 8px 20px !important;
+            }
+
+            .style-01 p {
+                font-size: 1rem !important;
+                margin-bottom: 30px !important;
+            }
+
+            .carousel-nav {
+                width: 45px !important;
+                height: 45px !important;
+                font-size: 16px !important;
+            }
+
+            .carousel-nav.prev {
+                left: 15px !important;
+            }
+
+            .carousel-nav.next {
+                right: 15px !important;
+            }
+
+            .boxed-btn,
+            .video-play {
+                padding: 15px 25px !important;
+                font-size: 14px !important;
+            }
+
+            .play-icon {
+                width: 45px !important;
+                height: 45px !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title.style-01 {
+                font-size: 2rem !important;
+            }
+
+            .subtitle span {
+                font-size: 14px !important;
+                letter-spacing: 1px !important;
+                padding: 6px 15px !important;
+            }
+
+            .style-01 p {
+                font-size: 0.9rem !important;
+            }
+
+            .btn-wrapper {
+                gap: 15px !important;
+            }
+
+            .boxed-btn,
+            .video-play {
+                padding: 12px 20px !important;
+                font-size: 13px !important;
+            }
+
+            .carousel-indicators {
+                bottom: 20px !important;
+            }
+
+            .indicator {
+                width: 12px !important;
+                height: 12px !important;
+            }
+        }
+    </style>
 
 
     <!-- footer area start -->
